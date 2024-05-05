@@ -1,7 +1,8 @@
-# vercel
+# Vercel
 
-## Congfiure djagno project
+## Configuration
 
+#### deployment on vercel
 - vercel.json
 ```json
 {
@@ -27,6 +28,9 @@ app = application
 ```python
 ALLOWED_HOSTS = ['.vercel.app']
 ```
+#### securly save secret data
+python-decouple to store secret data | create .env file
+```python
+from decouple import config
 
---------
-- python-decouple to store secrect data
+```
