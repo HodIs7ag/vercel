@@ -14,7 +14,8 @@
         "src": "/(.*)",
         "dest": "project/wsgi.py"
     }]
-}```
+}
+```
 
 - wsgi.py
 ```python
