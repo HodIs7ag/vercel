@@ -19,10 +19,11 @@
 
 - wsgi.py
 ```python
+application = get_wsgi_application()
 app = application
 ```
 
 - settings.py
 ```python
-ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app']
 ```
