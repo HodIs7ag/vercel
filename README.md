@@ -27,3 +27,6 @@ app = application
 ```python
 ALLOWED_HOSTS = ['.vercel.app']
 ```
+
+--------
+- python-decouple to store secrect data
